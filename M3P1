@@ -1,0 +1,20 @@
+
+
+#have the user input stock ticker symbol
+stock=input("Input a stock ticker symbol: ")
+print(stock)
+
+#user inputs number of shares
+numbershares=int(input("Input number of shares purchased: "))
+print(numbershares)
+
+#user inputs cost of each share
+costpershare=int(input("Input cost of each share: "))
+print(costpershare)
+
+#number of shares * cost per share = amount invested
+amountinvested=(numbershares * costpershare)
+print("Amount invested:$ ",amountinvested)
+
+
+
