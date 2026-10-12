@@ -1,0 +1,35 @@
+#Gallis M3P4
+
+#user input make
+make = input("make of model: ")
+print(make)
+
+#user input model
+model = input("model: ")
+print(model)
+
+#user inputs MSRP
+msrp = int(input("msrp:$ "))
+print(msrp)
+
+#user inputs discounted percent
+discounted_percent = float(input("percent discounted in decimal form: "))
+print(discounted_percent)
+
+#amount off with msrp * discount percent
+amount_off = (msrp * discounted_percent)
+print(amount_off)
+
+#discounted price with amount off
+discounted_price = (msrp - amount_off)
+print(discounted_price)
+
+#final display the make, model, msrp, discount percent (decimal), amount off, and disc price
+print(make)
+print(model)
+print(msrp)
+print(discounted_percent)
+print(amount_off)
+print(discounted_price)
+
+#end process
