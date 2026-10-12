@@ -1,0 +1,19 @@
+#Gallis M4P2
+
+#user input price per share, int
+price_per_share = float(input("price per share: "))
+print(price_per_share)
+
+#user inputs current value of stock
+stock_price = float(input("the current stock price: "))
+print(stock_price)
+
+#user inputs amount of stocks purchased
+quantity_of_stock = float(input("amount of stocks purchased: "))
+print(quantity_of_stock)
+
+#compute the value of stock entered
+value_of_stock = (quantity_of_stock - price_per_share) * quantity_of_stock
+print(value_of_stock)
+
+#end process
