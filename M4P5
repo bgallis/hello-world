@@ -1,0 +1,24 @@
+#Gallis M4P5
+
+#user enters fixed cost
+fixed_cost =float(input("Input the fixed cost: "))
+print(fixed_cost)
+print()
+
+#user enters price per unit
+price_per_unit =float(input("Input the price per unit: "))
+print(price_per_unit)
+print()
+
+#user enters cost per unit
+cost_per_unit =float(input("Input the cost per unit: "))
+print(cost_per_unit)
+print()
+
+#break even point
+difference_price_cost = price_per_unit - cost_per_unit
+breakeven = float(fixed_cost/difference_price_cost)
+print(breakeven)
+print()
+
+#end process
