@@ -1,0 +1,25 @@
+#Gallis M3P2
+
+#Student inputs lastname
+print( "Input your last name: ")
+last_name = input()
+print("hello, " + last_name + "!")
+
+#student inputs midterm score
+print("input your midterm score (0-100): ")
+midterm_score = int(input())
+print(midterm_score)
+
+#Student inputs final exam score
+print("input your final exam score (0-100): ")
+final_exam_score = int(input())
+print(final_exam_score)
+
+#process sum of 40% of midterm and 60% of final
+final_midterm = float(midterm_score * .4)
+final_exam_final = float(final_exam_score * .6)
+total_exam_score = float(final_midterm + final_exam_final)
+print(total_exam_score)
+print(last_name)
+
+#end of process
