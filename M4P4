@@ -1,0 +1,22 @@
+#Gallis M4P4
+
+#user enters name
+name = input("what is your first name? ")
+print(name)
+print()
+
+#user inputs steps
+steps = int(input("How many steps did you walk today? "))
+print(steps)
+print()
+
+#calories per step
+calories = float(steps * .25)
+print(calories)
+print()
+
+#first name and calories
+print(name)
+print(calories)
+
+#end process
