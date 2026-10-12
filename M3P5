@@ -1,0 +1,16 @@
+#Gallis M3P5
+
+#user inputs radius of a circle, float
+radius = int(input("enter radius:"))
+print(radius)
+
+#calculate area
+area = float(3.14 * (radius ** 2))
+print(area)
+
+#compute perimeter
+perimeter = float(2*3.14*(radius))
+print(perimeter)
+
+#end process
+
