@@ -1,0 +1,23 @@
+#Gallis M4P1
+
+#exam score 1
+exam_one = int(input("first exam score: "))
+print(exam_one)
+
+#exam score 2
+exam_two = int(input("second exam score: "))
+print(exam_two)
+
+#exam score 1 weight
+weight_one = exam_one * .6
+print(weight_one)
+
+#exam 2 weight
+weight_two = exam_two * .4
+print(weight_two)
+
+#add weight 1 and 2 to get total
+total_exam = weight_one + weight_two
+print(total_exam)
+
+#end process
