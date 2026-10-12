@@ -1,0 +1,35 @@
+#Gallis M4P3
+
+#user inputs total for meal
+meal_total_price = float(input("the total meal price: "))
+print(meal_total_price)
+print()
+
+#tip with 15%
+print("meal with 15%")
+print(meal_total_price)
+tip_fifteen = float(meal_total_price * 0.15)
+print(tip_fifteen)
+total_fifteen = float(tip_fifteen + meal_total_price)
+print(total_fifteen)
+print()
+
+#tip with 18%
+print("meal with 18%")
+print(meal_total_price)
+tip_eighteen = float(meal_total_price * 0.18)
+print(tip_eighteen)
+total_eighteen = float(tip_eighteen + meal_total_price)
+print(total_eighteen)
+print()
+
+#tip with 20%
+print("meal with 20%")
+print(meal_total_price)
+tip_twenty = float(meal_total_price * 0.20)
+print(tip_twenty)
+total_twenty = float(tip_twenty + meal_total_price)
+print(total_twenty)
+print()
+
+#end process
