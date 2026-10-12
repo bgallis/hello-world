@@ -1,0 +1,20 @@
+#Gallis M3P3
+
+#my input of how much I received
+ben = int(input("how much did you get from the job:" ))
+print(ben)
+
+#friend 1 input of how much they received
+friend1 = int(input("how much did you get from the job:"))
+print(friend1)
+
+#friend 2 of their input of how much the received
+friend2 = int(input("how much did you get from the job:"))
+print(friend2)
+
+final_cut = int((ben + friend1 + friend2) /3)
+print(final_cut)
+
+print("each person gets: " + str(final_cut))    
+
+#end process
