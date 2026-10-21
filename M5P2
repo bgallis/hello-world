@@ -1,0 +1,27 @@
+#Gallis M5P2
+
+#delcared variables
+item_a = 10
+item_b = 20
+
+#amount of a or b
+print("enter amount of a or b: ")
+amount_unit: int = int(input())
+print(amount_unit)
+
+#user inputs quantity of item
+print("enter if A or B: ")
+if input() == "A":
+    print("unit price = $10")
+elif input() == "B":
+    print("unit price = $20")
+print()
+
+#amount of units * a or b
+print(amount_unit)
+print(amount_unit * item_a)
+if amount_unit * item_a > amount_unit: 
+    
+else amount_unit * item_b:
+    
+print()
