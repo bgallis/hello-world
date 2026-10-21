@@ -1,0 +1,46 @@
+#Gallis M5P1
+
+#user inputs quantity of an item
+quantity_of_item = int(input("Input the quantity of item: "))
+print(quantity_of_item)
+print()
+
+unit_a = 3
+unit_b = 5
+
+
+if quantity_of_item >= 1000:
+    print("the unit price should be $3.00")
+elif quantity_of_item < 1000:
+    print("the unit price should be $5.00")
+else:
+    print("the unit price should be $5.00")
+print()
+
+#quantity of item * unit price
+
+if quantity_of_item >= 1000:
+    print(quantity_of_item * unit_a)
+elif quantity_of_item < 1000:
+    print(quantity_of_item * unit_b)
+else:
+    print(quantity_of_item * unit_b)
+print()
+
+#tax
+
+if quantity_of_item >= 1000:
+    print(quantity_of_item * unit_a)
+elif quantity_of_item < 1000:
+    print(quantity_of_item * unit_b)
+else:
+    print(quantity_of_item * unit_b)
+extended_price = int(quantity_of_item * .07)
+print(extended_price + quantity_of_item)
+print()
+
+#total price
+total_price = extended_price + quantity_of_item
+print(total_price)
+print()
+
