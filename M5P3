@@ -1,0 +1,20 @@
+#Gallis M5P3
+
+#number of books
+number_of_books = int(input("Enter the number of books: "))
+print(number_of_books)
+
+#cost of books
+cost_of_books = int(input("Enter the cost of books: "))
+print(cost_of_books)
+
+#total of books to make shipping fee
+total_of_books = number_of_books * cost_of_books
+print(total_of_books)
+
+if total_of_books < 50:
+    print("shipping is $25", shipping_cost + 25)
+
+else total_of_books >= 50:
+    print("shipping cost: ", shipping_cost)
+print()
