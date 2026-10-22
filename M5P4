@@ -7,7 +7,7 @@ print()
 
 #user inputs cost of appliance
 cost_of_product = int(input("enter the cost of the product: "))
-print(cost_of_product)
+print(f"cost of {product_name} is {cost_of_product}")
 print()
 
 if cost_of_product >= 1000:
