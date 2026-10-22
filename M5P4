@@ -1,0 +1,19 @@
+#Gallis M5P4
+
+#user enters name of product
+product_name = print(input("enter name of a product: "))
+print(product_name)
+print()
+
+#user inputs cost of appliance
+cost_of_product = int(input("enter the cost of the product: "))
+print(cost_of_product)
+print()
+
+if cost_of_product >= 1000:
+    print((cost_of_product * .1) + cost_of_product)
+elif cost_of_product < 1000:
+    print((cost_of_product * .05) + cost_of_product)
+print()
+
+#could not figure out how to get to print cost of warranty and total separate
