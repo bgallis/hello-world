@@ -5,8 +5,7 @@ item_a = 10
 item_b = 20
 
 #amount of a or b
-print("enter amount of a or b: ")
-amount_unit: int = int(input())
+amount_unit = int(input("enter amount of A or B: "))
 print(amount_unit)
 
 #user inputs quantity of item
@@ -18,10 +17,13 @@ elif input() == "B":
 print()
 
 #amount of units * a or b
-print(amount_unit)
-print(amount_unit * item_a)
-if amount_unit * item_a > amount_unit: 
-    
-else amount_unit * item_b:
-    
+if amount_unit == "A":
+    print(amount_unit * item_a)
+else:
+    print(amount_unit * item_b)
+
 print()
+
+
+#could not fully figure this one out
+
