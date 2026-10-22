@@ -1,0 +1,30 @@
+#Gallis M5P5
+
+#user enters last name
+print("enter your last name: ")
+last_name = input()
+print()
+
+#user enters number of dependents
+number_of_dependents = int(input("enter the number of dependents: "))
+print(number_of_dependents)
+print()
+
+#user enters gross income
+gross_income = int(input("enter your gross income: "))
+print(gross_income)
+print()
+
+#adjusted gross income
+adjusted_gross_income = (gross_income - number_of_dependents * 12000)
+print(adjusted_gross_income)
+print()
+
+#if adjusted gross income tax is greater than 50k = 20, if less 10
+if adjusted_gross_income >= 50000:
+    print("income tax rate is 20%")
+else:
+    print("income tax rate is 10%")
+print()
+
+#I don't know how to compute income tax rate
