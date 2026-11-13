@@ -1,0 +1,25 @@
+#Gallis M6P1 10-15-26
+
+price_a = 10
+price_b = 20
+price_c = 30
+
+#user inputs quantity of widgets
+widget_a = int(input("Enter quantity of Widgets: "))
+if widget_a > 10000:
+    print("The price is $", price_a)
+    print("the tax is", price_a * 0.07)
+    print("the extended price is", widget_a * price_a)
+    print("the total is", (widget_a * price_a) + (price_a * 0.07))
+elif widget_a >= 5000 and widget_a <= 10000:
+    print("The price is $", price_b)
+    print("the tax is", price_b * 0.07)
+    print("the extended price is", widget_a * price_b)
+    print("the total is", (widget_a * price_b) + (price_b * 0.07))
+else:
+    print("The price is $", price_c)
+    print("the tax is", price_c * 0.07)
+    print("the extended price is", widget_a * price_c)
+    print("the total is", (widget_a * price_c) + (price_c * 0.07))
+print()
+  
